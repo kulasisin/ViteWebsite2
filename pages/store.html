@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="store">
+        <div class="container mb-8">
+            <h2 class="h2 border-left-8 mb-8 pl-4">門市據點</h2>
+            <form action="store.html" method="get" class="mb-8">
+                <label for="area" class="fs-3 mr-4">選擇地區</label>
+                <select name="area" id="area" class="fs-5 area-width">
+                  <option value="台北市" class="fs-5">台北市</option>
+                  <option value="台中市" class="fs-5">台中市</option>
+                  <option value="高雄市" class="fs-5">高雄市</option>
+                </select>
+              </form>
+
+            <div class="branch">
+            <div>
+              <img src="../assets/images/store-1.png" alt="" class="branch-img">
+              <h3 class="branch-h3">台北中山旗艦店</h3>
+              <ul class="branch-li">
+                <li class="mb-2"><span class="material-symbols-outlined">call</span>
+                                  電話：(02)000-1234</li>
+                <li class="mb-2"><span class="material-symbols-outlined">schedule</span>
+                  營業時間：10:00-21:00</li>
+                <li class="mb-2"><span class="material-symbols-outlined">location_on</span>
+                  地址：台北市中山區南京東路25巷2-1號</li>
+              </ul>
+              <a href="#" class="branch-li-a fs-19">詳細資訊</a>
+            </div>
+
+            <div>
+              <img src="../assets/images/store-2.png" alt="" class="branch-img">
+              <h3 class="branch-h3">台中清水旗艦店</h3>              
+              <ul class="branch-li">
+                <li class="mb-2"><span class="material-symbols-outlined">call</span>
+                  電話：(02)000-2345</li>
+                <li class="mb-2"><span class="material-symbols-outlined">schedule</span>
+                  營業時間：10:00-21:00</li>
+                <li class="mb-2"><span class="material-symbols-outlined">location_on</span>
+                  地址：台北市中正區復興南路 132-1 號</li>
+              </ul>
+              <a href="#" class="branch-li-a fs-19">詳細資訊</a>
+            </div>
+
+            <div>
+              <img src="../assets/images/store-3.png" alt="" class="branch-img">
+              <div class="d-flex d-flex-column justify-content-betwee">
+                <h3 class="branch-h3">台中清水旗艦店</h3>
+                <ul class="branch-li">
+                  <li class="mb-2"><span class="material-symbols-outlined">call</span>
+                    電話：(02)000-1234</li>
+                  <li class="mb-2"><span class="material-symbols-outlined">schedule</span>
+                    營業時間：10:00-21:00</li>
+                  <li class="mb-2"><span class="material-symbols-outlined">location_on</span>
+                    地址：台中市清水區經南一路 23 號 8 樓</li>
+                </ul>
+                <a href="#" class="branch-li-a fs-19">詳細資訊</a>
+              </div>
+            </div>
+
+          <div>
+            <img src="../assets/images/store-4.png" alt="" class="branch-img">   
+              <h3 class="branch-h3">高雄中正形象店</h3>
+              <ul class="branch-li">
+                <li class="mb-2"><span class="material-symbols-outlined">call</span>
+                  電話：(07)000-2345</li>
+                <li class="mb-2"><span class="material-symbols-outlined">schedule</span>
+                  營業時間：10:00-21:00</li>
+                <li class="mb-2"><span class="material-symbols-outlined">location_on</span>
+                  地址：高雄市苓雅區中正路 38 號 12 樓</li>
+              </ul>
+              <a href="#" class="branch-li-a fs-19">詳細資訊</a>      
+          </div>
+
+          <div>
+            <img src="../assets/images/store-5.png" alt="" class="branch-img">
+            <h3 class="branch-h3">高雄夢時代店</h3>
+            <ul class="branch-li">
+              <li class="mb-2"><span class="material-symbols-outlined">call</span>
+                電話：(07)000-1234</li>
+              <li class="mb-2"><span class="material-symbols-outlined">schedule</span>
+                營業時間：10:00-21:00</li>
+              <li class="mb-2"><span class="material-symbols-outlined">location_on</span>
+                地址：高雄市前鎮區中華一路 63 號 6 樓</li>
+            </ul>
+            <a href="#" class="branch-li-a fs-19">詳細資訊</a>
+          </div>
+          </div>
+          </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

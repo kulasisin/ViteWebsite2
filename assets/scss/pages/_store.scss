@@ -1,0 +1,44 @@
+.area{
+    background-color: #fff;
+}
+
+.area-width{
+    width: 304px;
+    @include mobile{
+        width: 276px;
+    }
+}
+
+.branch{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+ }
+
+.branch-li{
+    padding: 8px 16px;
+    border: 1px solid #00000020;
+} 
+
+.branch-h3{
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #00000020;
+} 
+
+.branch-img{
+    max-width: 416px;
+}
+
+.branch-li-a{
+    background: black;
+    color: white;
+    padding: 16px 170px;
+
+}
+
+.branch-color{
+    color: #212529;
+}
+

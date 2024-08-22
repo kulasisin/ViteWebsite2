@@ -1,0 +1,221 @@
+/* Utilitis */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 12px;
+    @include pad{
+        max-width: 768px;
+    }
+}
+
+.container-header{
+    padding: 16px 12px;
+}
+
+.container-fe{
+    max-width: 49%;
+}
+
+.container-footer{
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.container-ques{
+    max-width: 856px;
+}
+
+.container-branch{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:992px){
+    .container-header{
+        padding: 16px 36px;
+    }
+    
+}
+
+@media(max-width:676px){
+    .container{
+        max-width: 676px;
+    }
+
+    .container-header{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-header2{
+        margin: 0 ;
+        padding: 0;
+        gap: 0;
+    }  
+
+    .container-footer{
+        padding: 24px 24px 13px 14px;
+    }
+}   
+    
+
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-column{
+    flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.bg-color-1{
+    background: #fbf2f2;
+}
+
+.border-bottom-1{
+    border-bottom: solid 1px;
+}
+
+.border-left-8{
+    border-left: solid 8px #9F1213;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.gap-6{
+    gap: 24px;
+}
+
+.gap-12{
+    gap: 48px;
+}
+
+.mb-2{
+    margin-bottom: 8px;
+}
+
+.mb-4{
+    margin-bottom: 16px;
+}
+
+.mb-6{
+    margin-bottom: 24px;
+}
+
+.mb-8{
+    margin-bottom: 32px;
+}
+
+.mb-9{
+    margin-bottom: 36px;
+}
+
+.mb-12{
+    margin-bottom: 48px;
+}
+
+.mr-4{
+    margin-right: 16px;
+}
+
+.mt-2{
+    margin-top: 8px;
+}
+
+.mt-4{
+    margin-top: 16px;
+}
+
+.mt-8{
+    margin-top: 32px;
+}
+
+.mt-9{
+    margin-top: 36px;
+}
+
+.mt-24{
+    margin-top: 96px;
+}
+
+.pl-4{
+    padding-left: 16px;
+}
+
+.h2{
+    font-size: 48px;
+}
+
+.fs-2{
+    font-size: 36px;
+}
+
+.fs-3{
+    font-size: 24px;
+}
+
+.fs-4{
+    font-size: 20px;
+}
+
+.fs-5{
+    font-size: 18px;
+}
+
+.fs-6{
+    font-size: 14px;
+}
+
+.fs-19{
+    font-size: 19px;
+}
+
+
+@media(max-width: 676px){
+    .h2{
+        font-size: 24px;
+    }
+}
+
+.font-weight{
+    font-weight: bold;
+}
+
+.color-1{
+    color: #650300;
+}
+
+.color-2{
+    color:#707070;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+
